@@ -1505,6 +1505,7 @@
       },
       "export": {
         "failed": "[to be translated]:Export failed",
+        "html": "[to be translated]:Export as HTML",
         "image": "Exportar como imagen",
         "image_saved": "Imagen guardada con éxito",
         "joplin": "Exportar a Joplin",
@@ -1778,7 +1779,6 @@
     "on": "En",
     "open": "Abrir",
     "open_in": "Abrir en {{name}}",
-    "parameter": "Parámetro",
     "paste": "Pegar",
     "placeholders": {
       "select": {
@@ -2977,6 +2977,11 @@
         "text_extraction_failed": "Error al extraer el texto de {{name}}"
       },
       "get_embedding_dimensions": "Fallo al obtener las dimensiones de incrustación",
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Failed to export the HTML file"
+        }
+      },
       "invalid": {
         "api": {
           "host": "Dirección API inválida",
@@ -3106,6 +3111,11 @@
     "success": {
       "excel": {
         "export": "Excel exportado con éxito"
+      },
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Successfully exported the HTML file"
+        }
       },
       "joplin": {
         "export": "Exportado con éxito a Joplin"
@@ -3927,7 +3937,6 @@
     "number_images_tip": "Número de imágenes generadas por vez (1-4)",
     "operation_failed": "Operación fallida, por favor inténtelo de nuevo más tarde",
     "paint_course": "Tutorial",
-    "parameters": "Parámetros",
     "per_image": "Por imagen",
     "per_images": "Por imagen",
     "person_generation": "[to be translated]:Generate people",
@@ -4940,6 +4949,7 @@
       },
       "export_menu": {
         "docx": "Exportar a Word",
+        "html": "[to be translated]:Export as HTML",
         "image": "Exportar como imagen",
         "joplin": "Exportar a Joplin",
         "markdown": "Exportar a Markdown",

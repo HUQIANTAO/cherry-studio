@@ -1505,6 +1505,7 @@
       },
       "export": {
         "failed": "[to be translated]:Export failed",
+        "html": "[to be translated]:Export as HTML",
         "image": "画像としてエクスポート",
         "image_saved": "画像が正常に保存されました",
         "joplin": "Joplin にエクスポート",
@@ -1778,7 +1779,6 @@
     "on": "オン",
     "open": "開く",
     "open_in": "{{name}}で開く",
-    "parameter": "パラメータ",
     "paste": "貼り付け",
     "placeholders": {
       "select": {
@@ -2977,6 +2977,11 @@
         "text_extraction_failed": "{{name}}からテキストの抽出に失敗しました"
       },
       "get_embedding_dimensions": "埋込み次元を取得できませんでした",
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Failed to export the HTML file"
+        }
+      },
       "invalid": {
         "api": {
           "host": "無効なAPIアドレスです",
@@ -3106,6 +3111,11 @@
     "success": {
       "excel": {
         "export": "Excelのエクスポートが正常に完了しました"
+      },
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Successfully exported the HTML file"
+        }
       },
       "joplin": {
         "export": "Joplin へのエクスポートに成功しました"
@@ -3927,7 +3937,6 @@
     "number_images_tip": "生成する画像の数（1-4）",
     "operation_failed": "操作に失敗しました。後でもう一度お試しください。",
     "paint_course": "チュートリアル",
-    "parameters": "パラメータ",
     "per_image": "1枚あたり",
     "per_images": "複数枚あたり",
     "person_generation": "[to be translated]:Generate people",
@@ -4940,6 +4949,7 @@
       },
       "export_menu": {
         "docx": "Wordとしてエクスポート",
+        "html": "[to be translated]:Export as HTML",
         "image": "画像としてエクスポート",
         "joplin": "Joplinにエクスポート",
         "markdown": "Markdownとしてエクスポート",

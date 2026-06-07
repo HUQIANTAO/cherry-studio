@@ -1505,6 +1505,7 @@
       },
       "export": {
         "failed": "[to be translated]:Export failed",
+        "html": "[to be translated]:Export as HTML",
         "image": "Exporter sous forme d'image",
         "image_saved": "Image enregistrée avec succès",
         "joplin": "Exporter vers Joplin",
@@ -1778,7 +1779,6 @@
     "on": "Marche",
     "open": "Ouvrir",
     "open_in": "Ouvrir dans {{name}}",
-    "parameter": "Paramètre",
     "paste": "Coller",
     "placeholders": {
       "select": {
@@ -2977,6 +2977,11 @@
         "text_extraction_failed": "Impossible d'extraire le texte de {{name}}"
       },
       "get_embedding_dimensions": "Impossible d'obtenir les dimensions d'encodage",
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Failed to export the HTML file"
+        }
+      },
       "invalid": {
         "api": {
           "host": "Adresse API invalide",
@@ -3106,6 +3111,11 @@
     "success": {
       "excel": {
         "export": "Exportation Excel réussie"
+      },
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Successfully exported the HTML file"
+        }
       },
       "joplin": {
         "export": "Exportation réussie vers Joplin"
@@ -3927,7 +3937,6 @@
     "number_images_tip": "Le nombre d'images générées en une seule fois (1-4)",
     "operation_failed": "L'opération a échoué, veuillez réessayer plus tard",
     "paint_course": "Tutoriel",
-    "parameters": "Paramètres",
     "per_image": "Par image",
     "per_images": "Par image",
     "person_generation": "[to be translated]:Generate people",
@@ -4940,6 +4949,7 @@
       },
       "export_menu": {
         "docx": "Exporter au format Word",
+        "html": "[to be translated]:Export as HTML",
         "image": "Exporter en tant qu'image",
         "joplin": "Exporter vers Joplin",
         "markdown": "Exporter au format Markdown",

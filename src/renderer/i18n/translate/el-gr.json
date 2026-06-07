@@ -1505,6 +1505,7 @@
       },
       "export": {
         "failed": "[to be translated]:Export failed",
+        "html": "[to be translated]:Export as HTML",
         "image": "Εξαγωγή ως εικόνα",
         "image_saved": "Η εικόνα αποθηκεύτηκε με επιτυχία",
         "joplin": "Εξαγωγή στο Joplin",
@@ -1778,7 +1779,6 @@
     "on": "Ενεργό",
     "open": "Άνοιγμα",
     "open_in": "Άνοιγμα στο {{name}}",
-    "parameter": "Παράμετρος",
     "paste": "Επικόλληση",
     "placeholders": {
       "select": {
@@ -2977,6 +2977,11 @@
         "text_extraction_failed": "Αποτυχία εξαγωγής κειμένου από {{name}}"
       },
       "get_embedding_dimensions": "Απέτυχε η πρόσληψη διαστάσεων ενσωμάτωσης",
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Failed to export the HTML file"
+        }
+      },
       "invalid": {
         "api": {
           "host": "Μη έγκυρη διεύθυνση API",
@@ -3106,6 +3111,11 @@
     "success": {
       "excel": {
         "export": "Η εξαγωγή του Excel ολοκληρώθηκε με επιτυχία"
+      },
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Successfully exported the HTML file"
+        }
       },
       "joplin": {
         "export": "Η εξαγωγή στο Joplin ήταν επιτυχής"
@@ -3927,7 +3937,6 @@
     "number_images_tip": "Ποσότητα εικόνων που θα δημιουργηθούν μια φορά (1-4)",
     "operation_failed": "Η λειτουργία απέτυχε, παρακαλώ δοκιμάστε ξανά αργότερα",
     "paint_course": "Εκπαίδευση",
-    "parameters": "Παράμετροι",
     "per_image": "Ανά εικόνα",
     "per_images": "Ανά εικόνα",
     "person_generation": "[to be translated]:Generate people",
@@ -4940,6 +4949,7 @@
       },
       "export_menu": {
         "docx": "Εξαγωγή σε Word",
+        "html": "[to be translated]:Export as HTML",
         "image": "Εξαγωγή ως εικόνα",
         "joplin": "Εξαγωγή στο Joplin",
         "markdown": "Εξαγωγή σε Markdown",

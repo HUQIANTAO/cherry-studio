@@ -1505,6 +1505,7 @@
       },
       "export": {
         "failed": "[to be translated]:Export failed",
+        "html": "[to be translated]:Export as HTML",
         "image": "Xuất dưới dạng hình ảnh",
         "image_saved": "Hình ảnh đã được lưu thành công",
         "joplin": "Exporteren naar Joplin",
@@ -1778,7 +1779,6 @@
     "on": "On",
     "open": "Abierto",
     "open_in": "Mở trong {{name}}",
-    "parameter": "Tham số",
     "paste": "Pasta",
     "placeholders": {
       "select": {
@@ -2977,6 +2977,11 @@
         "text_extraction_failed": "Không thể trích xuất văn bản từ {{name}}"
       },
       "get_embedding_dimensions": "Không thể lấy kích thước embedding",
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Failed to export the HTML file"
+        }
+      },
       "invalid": {
         "api": {
           "host": "Máy chủ API không hợp lệ",
@@ -3106,6 +3111,11 @@
     "success": {
       "excel": {
         "export": "Excel exportado exitosamente"
+      },
+      "html": {
+        "export": {
+          "specified": "[to be translated]:Successfully exported the HTML file"
+        }
       },
       "joplin": {
         "export": "Đã xuất thành công sang Joplin"
@@ -3927,7 +3937,6 @@
     "number_images_tip": "Số lượng hình ảnh cần tạo (1-4)",
     "operation_failed": "Thao tác thất bại, vui lòng thử lại sau",
     "paint_course": "hướng dẫn",
-    "parameters": "Tham số",
     "per_image": "mỗi hình ảnh",
     "per_images": "per immagini",
     "person_generation": "[to be translated]:Generate people",
@@ -4940,6 +4949,7 @@
       },
       "export_menu": {
         "docx": "Xuất ra Word",
+        "html": "[to be translated]:Export as HTML",
         "image": "Xuất dưới dạng hình ảnh",
         "joplin": "Xuất sang Joplin",
         "markdown": "Xuất ra dạng Markdown",
