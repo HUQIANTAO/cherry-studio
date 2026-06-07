@@ -15,6 +15,7 @@ import { Route as AppRouteImport } from './routes/app'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SettingsIndexRouteImport } from './routes/settings/index'
 import { Route as SettingsWebsearchRouteImport } from './routes/settings/websearch'
+import { Route as SettingsStatsRouteImport } from './routes/settings/stats'
 import { Route as SettingsSkillsRouteImport } from './routes/settings/skills'
 import { Route as SettingsShortcutRouteImport } from './routes/settings/shortcut'
 import { Route as SettingsSelectionAssistantRouteImport } from './routes/settings/selection-assistant'
@@ -84,6 +85,11 @@ const SettingsIndexRoute = SettingsIndexRouteImport.update({
 const SettingsWebsearchRoute = SettingsWebsearchRouteImport.update({
   id: '/websearch',
   path: '/websearch',
+  getParentRoute: () => SettingsRoute,
+} as any)
+const SettingsStatsRoute = SettingsStatsRouteImport.update({
+  id: '/stats',
+  path: '/stats',
   getParentRoute: () => SettingsRoute,
 } as any)
 const SettingsSkillsRoute = SettingsSkillsRouteImport.update({
@@ -322,6 +328,7 @@ export interface FileRoutesByFullPath {
   '/settings/selection-assistant': typeof SettingsSelectionAssistantRoute
   '/settings/shortcut': typeof SettingsShortcutRoute
   '/settings/skills': typeof SettingsSkillsRoute
+  '/settings/stats': typeof SettingsStatsRoute
   '/settings/websearch': typeof SettingsWebsearchRoute
   '/settings/': typeof SettingsIndexRoute
   '/app/mini-app/$appId': typeof AppMiniAppAppIdRoute
@@ -368,6 +375,7 @@ export interface FileRoutesByTo {
   '/settings/selection-assistant': typeof SettingsSelectionAssistantRoute
   '/settings/shortcut': typeof SettingsShortcutRoute
   '/settings/skills': typeof SettingsSkillsRoute
+  '/settings/stats': typeof SettingsStatsRoute
   '/settings/websearch': typeof SettingsWebsearchRoute
   '/settings': typeof SettingsIndexRoute
   '/app/mini-app/$appId': typeof AppMiniAppAppIdRoute
@@ -417,6 +425,7 @@ export interface FileRoutesById {
   '/settings/selection-assistant': typeof SettingsSelectionAssistantRoute
   '/settings/shortcut': typeof SettingsShortcutRoute
   '/settings/skills': typeof SettingsSkillsRoute
+  '/settings/stats': typeof SettingsStatsRoute
   '/settings/websearch': typeof SettingsWebsearchRoute
   '/settings/': typeof SettingsIndexRoute
   '/app/mini-app/$appId': typeof AppMiniAppAppIdRoute
@@ -467,6 +476,7 @@ export interface FileRouteTypes {
     | '/settings/selection-assistant'
     | '/settings/shortcut'
     | '/settings/skills'
+    | '/settings/stats'
     | '/settings/websearch'
     | '/settings/'
     | '/app/mini-app/$appId'
@@ -513,6 +523,7 @@ export interface FileRouteTypes {
     | '/settings/selection-assistant'
     | '/settings/shortcut'
     | '/settings/skills'
+    | '/settings/stats'
     | '/settings/websearch'
     | '/settings'
     | '/app/mini-app/$appId'
@@ -561,6 +572,7 @@ export interface FileRouteTypes {
     | '/settings/selection-assistant'
     | '/settings/shortcut'
     | '/settings/skills'
+    | '/settings/stats'
     | '/settings/websearch'
     | '/settings/'
     | '/app/mini-app/$appId'
@@ -626,6 +638,13 @@ declare module '@tanstack/react-router' {
       path: '/websearch'
       fullPath: '/settings/websearch'
       preLoaderRoute: typeof SettingsWebsearchRouteImport
+      parentRoute: typeof SettingsRoute
+    }
+    '/settings/stats': {
+      id: '/settings/stats'
+      path: '/stats'
+      fullPath: '/settings/stats'
+      preLoaderRoute: typeof SettingsStatsRouteImport
       parentRoute: typeof SettingsRoute
     }
     '/settings/skills': {
@@ -992,6 +1011,7 @@ interface SettingsRouteChildren {
   SettingsSelectionAssistantRoute: typeof SettingsSelectionAssistantRoute
   SettingsShortcutRoute: typeof SettingsShortcutRoute
   SettingsSkillsRoute: typeof SettingsSkillsRoute
+  SettingsStatsRoute: typeof SettingsStatsRoute
   SettingsWebsearchRoute: typeof SettingsWebsearchRoute
   SettingsIndexRoute: typeof SettingsIndexRoute
 }
@@ -1015,6 +1035,7 @@ const SettingsRouteChildren: SettingsRouteChildren = {
   SettingsSelectionAssistantRoute: SettingsSelectionAssistantRoute,
   SettingsShortcutRoute: SettingsShortcutRoute,
   SettingsSkillsRoute: SettingsSkillsRoute,
+  SettingsStatsRoute: SettingsStatsRoute,
   SettingsWebsearchRoute: SettingsWebsearchRoute,
   SettingsIndexRoute: SettingsIndexRoute,
 }
